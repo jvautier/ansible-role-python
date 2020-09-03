@@ -1,0 +1,15 @@
+---
+- name: Install required packages
+  yum:
+    name: "{{ item }}"
+    state: present
+  loop:
+    - unzip
+    - epel-release
+    - yum-utils
+    - device-mapper-persistent-data
+    - lvm2
+    - "@Development tools"
+    - python34-devel
+    - python2-devel
+    - python-pip

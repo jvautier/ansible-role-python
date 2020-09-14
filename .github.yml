@@ -1,0 +1,8 @@
+---
+fullname: jvautier/ansible-role-python
+description: Install python and python utilities through ansible
+tags:
+  - ansible
+  - ansible-role
+  - python
+github: {}
